@@ -32,6 +32,7 @@ namespace Constructors
         //Default Constructor
         public Customer(int id, string firstName, string lastName, string city) //Customer2'de çalışan yapı.
         {
+            //20. satırda customer2'nin adını yazdırmak için eşleştirme işlemi yapıyoruz.
             Id = id;
             FirstName = firstName;
             LastName = lastName;
